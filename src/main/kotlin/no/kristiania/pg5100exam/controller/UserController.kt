@@ -11,7 +11,6 @@ import java.net.URI
 
 @RestController
 @RequestMapping("/api/user")
-
 class UserController(@Autowired private val userService: UserService) {
 
     @PostMapping("/register")
